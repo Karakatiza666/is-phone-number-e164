@@ -1,0 +1,22 @@
+{
+  "name": "is-phone-number-e164",
+  "version": "1.0.0",
+  "description": "Check if a string is a E.164 standard phone number",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "phone",
+    "number",
+    "e164"
+  ],
+  "author": "bulakh.96@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc-alias": "^1.8.6",
+    "typescript": "^5.0.4"
+  }
+}
